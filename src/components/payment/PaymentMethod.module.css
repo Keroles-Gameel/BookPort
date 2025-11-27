@@ -1,0 +1,48 @@
+.methodOptions {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.methodOptions button {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #8b7355;
+  background: white;
+  border-radius: 6px;
+  color: #5a3d2b;
+  cursor: pointer;
+}
+
+.methodOptions .active {
+  background-color: #4d3d2a;
+  color: white;
+  border: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .methodOptions {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .methodOptions button {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 640px) {
+  .methodOptions {
+    gap: 6px;
+    margin-bottom: 12px;
+  }
+
+  .methodOptions button {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+

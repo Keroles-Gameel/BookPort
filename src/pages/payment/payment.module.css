@@ -1,0 +1,174 @@
+.appContainer {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 3rem 1rem 4rem;
+  background-color: #fffdf8;
+}
+
+.formContainer {
+  display: flex;
+  gap: 2.5rem;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.leftSide {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.rightSide {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.label {
+  font-weight: 500;
+  color: #5a3d2b;
+  display: block;
+  margin-bottom: 6px;
+  font-size: 1.05rem;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 1.5rem 1.75rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  border: 1px solid #f1e4d1;
+}
+
+.title {
+  color: #5a3d2b;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+}
+
+.input,
+.select {
+  width: 100%;
+  padding: 0.75rem 0.9rem;
+  margin-bottom: 0.9rem;
+  border: 1px solid #e3d4c2;
+  border-radius: 10px;
+  color: #5a3d2b;
+  background-color: #fffcf5;
+  font-size: 1.05rem;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.input:focus,
+.select:focus {
+  border-color: #c27243;
+  box-shadow: 0 0 0 2px rgba(194, 114, 67, 0.15);
+  background-color: #ffffff;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+  min-width: 160px;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .appContainer {
+    padding: 2.5rem 1.5rem 3rem;
+  }
+
+  .formContainer {
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 900px;
+  }
+
+  .card {
+    padding: 1.4rem 1.5rem;
+  }
+
+  .title {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .appContainer {
+    padding: 2rem 1.25rem 3rem;
+  }
+
+  .formContainer {
+    max-width: 100%;
+    gap: 1.5rem;
+  }
+
+  .card {
+    padding: 1.25rem 1.4rem;
+  }
+
+  .title {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .input,
+  .select {
+    padding: 0.7rem 0.85rem;
+    font-size: 1rem;
+  }
+
+  .row {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .col {
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .appContainer {
+    padding: 1.5rem 1rem 2.5rem;
+  }
+
+  .formContainer {
+    gap: 1.25rem;
+  }
+
+  .card {
+    padding: 1.1rem 1.2rem;
+  }
+
+  .title {
+    font-size: 1.1rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .label {
+    font-size: 0.98rem;
+  }
+
+  .input,
+  .select {
+    padding: 0.65rem 0.8rem;
+    font-size: 0.96rem;
+    margin-bottom: 0.75rem;
+  }
+}
+
+

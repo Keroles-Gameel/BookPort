@@ -1,0 +1,421 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 60px;
+  background: linear-gradient(135deg, #fbf6e8 0%, #fff 100%);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.logoContainer:hover {
+  transform: scale(1.05);
+}
+
+.logoImg {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 8px;
+  background-color: transparent;
+  mix-blend-mode: multiply;
+}
+
+.logoText {
+  font-size: 24px;
+  font-weight: 700;
+  color: #c27243;
+  letter-spacing: -0.5px;
+}
+
+.navLinks {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+  padding: 8px 0;
+  transition: color 0.3s ease;
+}
+
+.navLink::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #c27243;
+  transition: width 0.3s ease;
+}
+
+.navLink:hover {
+  color: #c27243;
+}
+
+.navLink:hover::after {
+  width: 100%;
+}
+
+.navIcons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.userMenu {
+  position: relative;
+}
+
+.userAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.userAvatar:hover {
+  background-color: rgba(194, 114, 67, 0.1);
+  box-shadow: 0 0 0 1px rgba(194, 114, 67, 0.2);
+  transform: scale(1.04);
+}
+
+.userAvatarIcon {
+  font-size: 26px;
+  color: #c27243;
+}
+
+.userAvatarImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.userDropdown {
+  position: absolute;
+  top: 48px;
+  right: 0;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  padding: 10px 14px;
+  min-width: 190px;
+  z-index: 1200;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.userNameRow {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4px;
+}
+
+.userNameLabel {
+  font-size: 11px;
+  color: #6b7280;
+}
+
+.userNameValue {
+  font-size: 13px;
+  font-weight: 600;
+  color: #374151;
+}
+
+.userUploadLabel {
+  font-size: 12px;
+  color: #c27243;
+  cursor: pointer;
+  padding: 4px 0;
+}
+
+.userFileInput {
+  display: none;
+}
+
+.userDropdownDivider {
+  height: 1px;
+  background-color: #f3f4f6;
+  margin: 4px 0;
+}
+
+.userDropdownItem,
+.userDropdownLogout {
+  border: none;
+  background: none;
+  padding: 6px 0;
+  text-align: left;
+  font-size: 13px;
+  text-decoration: none;
+  color: #374151;
+  cursor: pointer;
+}
+
+.userDropdownItem:hover {
+  color: #c27243;
+}
+
+.userDropdownLogout {
+  color: #b91c1c;
+  font-weight: 600;
+}
+
+.userDropdownLogout:hover {
+  color: #7f1d1d;
+}
+
+.favoritesBtn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: none;
+  border: 1px solid transparent;
+  color: #c27243;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.favoritesBtn:hover {
+  background-color: rgba(194, 114, 67, 0.1);
+  border-color: rgba(194, 114, 67, 0.4);
+  transform: scale(1.05);
+}
+
+.favoritesIcon {
+  font-size: 22px;
+}
+
+.favoritesBadge {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  background-color: #d63939;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 999px;
+  min-width: 18px;
+  text-align: center;
+  line-height: 1.2;
+  box-shadow: 0 2px 6px rgba(214, 57, 57, 0.3);
+}
+
+.cartBtn {
+  position: relative;
+  background: none;
+  border: none;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cartBtn:hover {
+  background-color: rgba(194, 114, 67, 0.1);
+  transform: scale(1.1);
+}
+
+.cartIcon {
+  font-size: 24px;
+  display: block;
+}
+
+.cartBadge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #dc2626;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 10px;
+  min-width: 18px;
+  text-align: center;
+  line-height: 1.4;
+  box-shadow: 0 2px 4px rgba(220, 38, 38, 0.3);
+}
+
+.btnLogin {
+  background: none;
+  border: none;
+  color: #c27243;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  font-size: 15px;
+}
+
+.btnLogin:hover {
+  background-color: rgba(194, 114, 67, 0.1);
+  color: #a55d33;
+}
+
+.btnRegister {
+  border: 2px solid #c27243;
+  background-color: #c27243;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-size: 15px;
+  box-shadow: 0 2px 8px rgba(194, 114, 67, 0.2);
+}
+
+.btnRegister:hover {
+  background-color: #a55d33;
+  border-color: #a55d33;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(194, 114, 67, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 15px 40px;
+  }
+
+  .navLinks {
+    gap: 25px;
+  }
+
+  .navLink {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 12px 30px;
+    flex-wrap: wrap;
+  }
+
+  .logoText {
+    font-size: 20px;
+  }
+
+  .logoImg {
+    height: 40px;
+  }
+
+  .navLinks {
+    gap: 15px;
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(194, 114, 67, 0.2);
+  }
+
+  .navLink {
+    font-size: 14px;
+  }
+
+  .navIcons {
+    gap: 12px;
+  }
+
+  .btnLogin,
+  .btnRegister {
+    font-size: 13px;
+    padding: 6px 14px;
+  }
+
+  .cartIcon {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 640px) {
+  .navbar {
+    padding: 10px 20px;
+  }
+
+  .logoText {
+    font-size: 18px;
+  }
+
+  .logoImg {
+    height: 35px;
+  }
+
+  .navLinks {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .navLink {
+    font-size: 13px;
+  }
+
+  .navIcons {
+    gap: 8px;
+  }
+
+  .btnLogin {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  .btnRegister {
+    padding: 6px 16px;
+    font-size: 12px;
+  }
+
+  .cartIcon {
+    font-size: 20px;
+  }
+
+  .cartBadge {
+    font-size: 10px;
+    padding: 1px 5px;
+    min-width: 16px;
+  }
+}
+

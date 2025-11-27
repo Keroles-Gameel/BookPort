@@ -1,0 +1,178 @@
+.footer {
+  background-color: #fbf6e8;
+  color: #fff;
+  padding: 60px 10%;
+  border-top: 4px solid #c27243;
+  padding-top: 60px;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  text-align: left;
+}
+
+.footerLogo {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footerLogo img {
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  object-fit: cover;
+  background-color: transparent;
+  mix-blend-mode: multiply;
+}
+
+.footerLogo h3 {
+  color: #c27243;
+  margin-top: 10px;
+  font-size: 22px;
+}
+
+.footerLogo p {
+  margin-top: 10px;
+  color: #444;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.footerLinks {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footerLinks h4 {
+  color: #c27243;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.footerLinks ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footerLinks li {
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.footerLinks a {
+  color: #444;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footerLinks a:hover {
+  color: #c27243;
+  padding-left: 5px;
+}
+
+.footerContact {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footerContact h4 {
+  color: #c27243;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.footerContact p {
+  margin: 6px 0;
+  color: #444;
+  font-size: 15px;
+}
+
+.footerBottom {
+  text-align: center;
+  border-top: 1px solid #333;
+  margin-top: 40px;
+  padding-top: 15px;
+  font-size: 15px;
+  color: #444;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .footer {
+    padding: 50px 8%;
+  }
+
+  .footerContent {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 5%;
+  }
+
+  .footerContent {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .footerLogo,
+  .footerLinks,
+  .footerContact {
+    min-width: 100%;
+  }
+
+  .footerLinks ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footerBottom {
+    margin-top: 30px;
+    padding-top: 15px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer {
+    padding: 30px 3%;
+  }
+
+  .footerLogo img {
+    width: 80px;
+    height: 40px;
+  }
+
+  .footerLogo h3 {
+    font-size: 20px;
+  }
+
+  .footerLogo p {
+    font-size: 14px;
+  }
+
+  .footerLinks h4,
+  .footerContact h4 {
+    font-size: 16px;
+  }
+
+  .footerLinks li {
+    font-size: 14px;
+  }
+
+  .footerContact p {
+    font-size: 14px;
+  }
+
+  .footerBottom {
+    font-size: 13px;
+  }
+}
+

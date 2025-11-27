@@ -1,0 +1,143 @@
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fbf6e8;
+}
+
+.loginBox {
+  background: #fff;
+  padding: 40px 50px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.loginBoxTitle {
+  margin-bottom: 10px;
+  color: #c27243;
+  font-size: 25px;
+}
+
+.loginBoxParagraph {
+  margin-bottom: 30px;
+  color: #777;
+}
+
+.formGroup {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.formGroupLabel {
+  display: block;
+  margin-bottom: 6px;
+  color: #444;
+  font-size: 15px;
+}
+
+.formGroupInput {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ec9e70;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+}
+
+.formGroupInput:focus {
+  border-color: #ec9e70;
+}
+
+.loginBtn {
+  width: 100%;
+  padding: 10px;
+  background-color: #c27243;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.loginBtn:hover {
+  background-color: #ec9e70;
+}
+
+.registerLink {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.registerLink a {
+  color: #ec9e70;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.registerLink a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .loginContainer {
+    padding: 20px;
+  }
+
+  .loginBox {
+    padding: 30px 30px;
+    max-width: 100%;
+  }
+
+  .loginBoxTitle {
+    font-size: 22px;
+  }
+
+  .formGroup {
+    margin-bottom: 18px;
+  }
+}
+
+@media (max-width: 640px) {
+  .loginContainer {
+    padding: 15px;
+  }
+
+  .loginBox {
+    padding: 25px 20px;
+  }
+
+  .loginBoxTitle {
+    font-size: 20px;
+  }
+
+  .loginBoxParagraph {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+
+  .formGroupLabel {
+    font-size: 14px;
+  }
+
+  .formGroupInput {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .loginBtn {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .registerLink {
+    font-size: 13px;
+  }
+}
+

@@ -1,0 +1,108 @@
+[
+  {
+    "id": 1,
+    "title": "To Kill a Mockingbird",
+    "description": "A novel about racial injustice in the Deep South seen through the eyes of a young girl.",
+    "image": "https://th.bing.com/th/id/OIP.T55C4BiOVfcS3WFdCM3xdwHaK2?w=206&h=302&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    "category": "Fiction"
+  },
+  {
+    "id": 2,
+    "title": "1984",
+    "description": "A dystopian novel about totalitarian regime control, surveillance and truth manipulation.",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71kxa1-0mfL.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 3,
+    "title": "Sapiens: A Brief History ..",
+    "description": "A non-fiction exploration of the history of humankind from the Stone Age to modern times.",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/713jIoMO3UL.jpg",
+    "category": "Non-Fiction"
+  },
+
+  {
+    "id": 7,
+    "title": "The Name of the Wind",
+    "description": "A fantasy novel about the rise of a young magician recounting his life story with magic, music and loss.",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/91b0C2YNSrL.jpg",
+    "category": "Fantasy"
+  },
+  {
+    "id": 8,
+    "title": "Mistborn: The Final Empire",
+    "description": "A fantasy novel in which a group of rebels with magical powers attempt to overthrow an immortal emperor.",
+    "image": "https://th.bing.com/th/id/OIP.4o3i7YRGXneC5nI68vBIiwHaHa?w=186&h=186&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    "category": "Fantasy"
+  },
+  {
+    "id": 9,
+    "title": "The Diary of a Young Girl",
+    "description": "A biography/memoir of Anne Frank, describing her life hiding during the Nazi occupation.",
+    "image": "https://m.media-amazon.com/images/I/81bLPNVfJTL.jpg",
+    "category": "Biography"
+  },
+  {
+    "id": 4,
+    "title": "Educated",
+    "description": "A memoir of a woman who grew up in a strict and abusive household and later earned a PhD from Cambridge University.",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/81WojUxbbFL.jpg",
+    "category": "Non-Fiction"
+  },
+  {
+    "id": 5,
+    "title": "Dune",
+    "description": "A science-fiction epic set on the desert planet Arrakis, about politics, religion and ecology.",
+    "image": "https://th.bing.com/th/id/OIP.A7BOacNmDTlsCZ9Z1MooCgAAAA?w=119&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    "category": "Science-Fiction"
+  },
+  {
+    "id": 6,
+    "title": "Ender’s Game",
+    "description": "A science-fiction novel about a young boy trained to fight in space wars against alien species.",
+    "image": "https://th.bing.com/th/id/OIP.xffoL-bDjr3Md1R3qeuVNwHaLZ?w=201&h=310&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    "category": "Science-Fiction"
+  },
+  {
+    "id": 10,
+    "title": "Steve Jobs",
+    "description": "A biography of Steve Jobs, co-founder of Apple Inc., covering his life, business and legacy.",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/81VStYnDGrL.jpg",
+    "category": "Biography"
+  },
+  {
+    "id": 11,
+    "title": "Brave New World",
+    "description": "A fiction classic set in a future world where society is controlled, raising questions about freedom.",
+    "image": "https://th.bing.com/th/id/OIP.UtrUfL2kE35h42M4atDQUwHaLK?w=203&h=306&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    "category": "Fiction"
+  },
+  {
+    "id": 12,
+    "title": "The Power of Introverts ...",
+    "description": "A non-fiction book exploring how introverts think and how they contribute in an extroverted society.",
+    "image": "https://th.bing.com/th/id/OIP.5usPnZABI_0Ru5oHqf236wHaHa?w=208&h=208&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    "category": "Non-Fiction"
+  },
+  {
+    "id": 13,
+    "title": "Foundation",
+    "description": "A science-fiction novel about mathematicians predicting the fall of a galactic empire and starting a foundation to preserve knowledge.",
+    "image": "https://i.pinimg.com/736x/a5/71/f9/a571f9c75a090aaf128a37a8fc4deaef--isaac-asimov-foundation.jpg",
+    "category": "Science-Fiction"
+  },
+  {
+    "id": 14,
+    "title": "The Hobbit",
+    "description": "A fantasy novel about a hobbit’s journey in a magical world to reclaim a treasure guarded by a dragon.",
+    "image": "https://th.bing.com/th/id/OIP.4wDMvd85nxZgWvO8Jp7evAHaLT?w=208&h=306&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    "category": "Fantasy"
+  },
+  {
+    "id": 15,
+    "title": "Becoming",
+    "description": "A biography of Michelle Obama, recounting her life, experiences as First Lady and activism.",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/81h2gWPTYJL.jpg",
+    "category": "Biography"
+  }
+]

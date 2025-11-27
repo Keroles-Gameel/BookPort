@@ -1,0 +1,164 @@
+.registerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fbf6e8;
+}
+
+.registerBox {
+  background: #fff;
+  padding: 40px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+}
+
+.registerBoxTitle {
+  margin-bottom: 10px;
+  color: #c27243;
+  font-size: 25px;
+}
+
+.registerBoxParagraph {
+  margin-bottom: 10px;
+  color: #777;
+}
+
+.formGroup {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.formGroupLabel {
+  display: block;
+  margin-bottom: 6px;
+  color: #444;
+  font-size: 15px;
+}
+
+.formGroupInput {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+}
+
+.formGroupInput:focus {
+  border-color: #ec9e70;
+}
+
+.registerBtn {
+  width: 100%;
+  padding: 10px;
+  background-color: #c27243;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.registerBtn:hover {
+  background-color: #ec9e70;
+}
+
+.loginLink {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.loginLink a {
+  color: #ec9e70;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.loginLink a:hover {
+  text-decoration: underline;
+}
+
+.registerMessage {
+  font-size: 14px;
+  text-align: center;
+}
+
+.registerMessageSuccess {
+  color: green;
+}
+
+.registerMessageError {
+  color: red;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .registerContainer {
+    padding: 20px;
+  }
+
+  .registerBox {
+    padding: 30px 30px;
+    max-width: 100%;
+  }
+
+  .registerBoxTitle {
+    font-size: 22px;
+  }
+
+  .formGroup {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 640px) {
+  .registerContainer {
+    padding: 15px;
+  }
+
+  .registerBox {
+    padding: 25px 20px;
+  }
+
+  .registerBoxTitle {
+    font-size: 20px;
+  }
+
+  .registerBoxParagraph {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .formGroup {
+    margin-bottom: 8px;
+  }
+
+  .formGroupLabel {
+    font-size: 14px;
+  }
+
+  .formGroupInput {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .registerBtn {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .loginLink {
+    font-size: 13px;
+  }
+
+  .registerMessage {
+    font-size: 13px;
+  }
+}
+
